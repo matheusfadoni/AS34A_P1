@@ -13,22 +13,36 @@ header{
     display: flex;
     place-content: center;
     align-items: center;
+    margin-bottom: auto;
 }
 
-#order{
-    
-    position: absolute;
-    
-    color: rgb(255, 255, 255);
+#logo{
+    width: 126px;
+}
+
+body{
+    background-color: black;
+    background-image:  url("imagens/starlinkcharcoal.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: -50px;
+}
+#bloco{
+    margin-top: 200px;
+    height: 500px;
     text-align: center;
     text-size-adjust: 100%;
     font-family: Roboto, Helvetica, Arial, Verdana, sans-serif;
+}
+#order{
+    color: rgb(255, 255, 255);
     font-size: 38.4px;
     font-stretch: 100%;
     font-weight: 700;
     line-height: 38.4px;
     letter-spacing: 1px;
-   
     line-height: 38.4px;
     margin-top: 0; 
 }
