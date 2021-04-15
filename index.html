@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imagens/favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
     <title>Starlink</title>
 </head>
 <body>
@@ -13,29 +15,30 @@
     <header>
         <img id="logo" src="imagens/logo_x_white.png" alt="Starlink logo">
     </header>
-    <div class="bloco" id="block">
+
+    <div class="bloco" >
         <div id="order">
             Order Starlink
         </div>
         
         <p class="subtitle">
-            Starlink is available to a limited number of users per coverage area at this time. Orders will be fulfilled on a first-come, first-served basis.
+            Digite um personagem de Rick and Morty, ou se quiser deslogar <a class="deslogar"> clique aqui</a>
         </p>
 
-        <div id="searchbox">
-            <input type="text" id="searchtxt" placeholder="Service Address"/>
+        <div id="pesquisa">
+            <div id="searchbox">
+                <input type="text" id="searchtxt" placeholder="Personagem"/>
+            </div>
+    
+            <p class="plus">
+            </p>
+    
+            <button id="ordernow">PESQUISAR</button>
+            <div id="card"><ul class="itens"></ul>
         </div>
-
-        <p class="plus">
-            Can't find your address? Try a Plus Code with City.
-        </p>
-
-        <button id="ordernow">ORDER NOW</button>
+        </div>
     
     </div>
-    <span class="privacy"> 
-        By clicking ORDER NOW, you agree to our Privacy Policy.
-    </span>
 
 
 </body>
