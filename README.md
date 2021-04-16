@@ -3,6 +3,7 @@ the purpose of this repository is to demonstrate the basic knowledge taught in t
 Students : Gabriel Falcade, Matheus Medeiros Fadoni
 
 Contexto
+
   Para a pagina inicial foi usado o projeto 1 de web que é a cópia da homepage da starlink.
   O projeto consiste em uma tela de login seguida de um campo de pesquisa de todos os personagens já existentes no universo do desenho animado "Rick and Morty", ao pesquisar pelo nome, são mostradas informações como: status do personagem (vivo ou morto), sexo, espécie, e o nome.
 
